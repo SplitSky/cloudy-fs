@@ -5,6 +5,7 @@ use std::fs;
 use std::io;
 use std::path::{Path, PathBuf};
 use std::sync::mpsc;
+
 // scan directory data structure
 #[derive(Debug, Clone)]
 pub enum Kind {
